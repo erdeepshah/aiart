@@ -11,6 +11,7 @@ import aiart.func as func
 from flask import Flask, send_file, request
 import io
 import aiart.config as cfg
+from aiart import app
 
 #configs
 torch.backends.cudnn.benchmark = True
