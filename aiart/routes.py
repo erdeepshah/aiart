@@ -7,10 +7,10 @@ Created on Fri Feb 10 01:23:35 2023
 
 import torch
 import diffusers
-import func
+import aiart.func as func
 from flask import Flask, send_file, request
 import io
-import config as cfg
+import aiart.config as cfg
 
 #configs
 torch.backends.cudnn.benchmark = True
