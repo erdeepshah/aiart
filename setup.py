@@ -20,5 +20,5 @@ setuptools.setup(
     url='https://github.com/erdeepshah/aiart',
     license='Apache License 2.0',
     packages=['aiart'],
-    install_requires=['diffusers','transformers','scipy','ftfy','accelerate'],
+    install_requires=['diffusers','transformers','scipy','ftfy','accelerate','flask','requests'],
 )
