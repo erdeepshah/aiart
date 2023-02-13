@@ -9,6 +9,10 @@ from aiart.func import createPipe
 from aiart.func import expose
 
 from flask import Flask
+import logging
+
 app = Flask(__name__)
+log = logging.getLogger('werkzeug')
+log.disabled = True
 
 import aiart.routes
